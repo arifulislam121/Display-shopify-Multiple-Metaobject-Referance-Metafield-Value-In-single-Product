@@ -1,13 +1,15 @@
   <div class="spec_sec_for_desktop">
     <h2 id="cusspec" class="h4 inline-richtext">Specificaties</h2>
 
-{% comment metafiled label %}
+{% comment metaobject label comment %}
     {% assign metafield_labels = 'Pakinhoud,Patroon,Type,Kleur,Merk,Collectie,Soort,Formaat,Voelbare structuur,Matlook,Geschikt voor vloerverwarming,Waterbestendig,Kwaliteitsklasse,Fabrieksgarantie,Lengte in cm,Breedte in cm,Dikte in mm,Geïntegreerde ondervloer,Slijtlaag'
       | split: ','
     %}
+{% comment metaobject  key comment %}
     {% assign metafield_keys = 'pakinhoudj,pattern,type,kleur,brand,collecties,soort,format,voelbare_structuur,matlook,suitable_for_floor_heating,water_resistant,quality_class,factory_warranty,lengte_in_cm,breedte_in_cm,thickness_in_mm,ge_ntegreerde_ondervloer,slijtlaag'
       | split: ','
     %}
+{% comment metafield  key comment %}
     {% assign metafield_fields = 'pakinhoud_label,pattern_labelj,type_label,kleur_labelh,brand_label,collecties_label,soort_label,format_label,voelbare_structuur_label,matlook_label,suitable_for_floor_heating_label,water_resistant_label,quality_class_label,fabrieksgarantie_label,lengte_in_cm_label,breedte_in_cm_label,thickness_in_mm_label,integrated_underfloor_label,wearing_layer_label'
       | split: ','
     %}
